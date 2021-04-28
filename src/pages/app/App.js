@@ -41,7 +41,7 @@ export default class App extends Component{
     };
     this.items = [
       {
-        label : 'Nuevo',
+        label : 'Novo',
         icon  : 'pi pi-fw pi-plus',
         command : () => {this.showSaveDialog()}
       },
@@ -88,9 +88,9 @@ export default class App extends Component{
   }
 
   delete() {
-    if(window.confirm("¿Realmente desea eliminar el registro?")) {
+    if(window.confirm("Realmente deseja deleta esse registro?")) {
       this.personaService.delete(this.state.selectedPersona.id).then(data => {
-        this.growl.show({severity: 'success', summary: 'Atenção!', detail: 'Se eliminó el registro correctamente.'});
+        this.growl.show({severity: 'success', summary: 'Atenção!', detail: 'registro eliminado.'});
         this.personaService.getAll().then(data => this.setState({personas: data}));
       });
     }
