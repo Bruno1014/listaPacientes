@@ -140,11 +140,12 @@ export default class App extends Component{
               <Column field="telefone" header="telefone"></Column>
             </DataTable>
         </Panel>
-        <Dialog header="Crear persona" visible={this.state.visible} style={{width: '400px'}} footer={this.footer} modal={true} onHide={() => this.setState({visible: false})}>
+        <Dialog header="Novo/Editar"  visible={this.state.visible} style={{width: '400px'}} footer={this.footer} modal={true} onHide={() => this.setState({visible: false})}>
             <form id="persona-form">
               <span className="p-float-label">
                 <InputText value={this.state.persona.nome} style={{width : '100%'}} id="nome" onChange={(e) => {
                     let val = e.target.value;
+                   
                     this.setState(prevState => {
                         let persona = Object.assign({}, prevState.persona);
                         persona.nome = val;

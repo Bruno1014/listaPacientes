@@ -7,7 +7,7 @@ export class PersonaService {
 
     baseUrl = "http://localhost:9090/";
     headers = {Accept:'application/json'
-    ,'Authorization':'eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJiY2FtcG9zQGJjYW1wb3MuY29tIiwiZXhwIjoxNjIwNTA4NzA1fQ.25suXMLh6qOHMNYnt8xBMITiBRiuS8UrhWLzMIocq6I0lg9m0Mtak-sYYoW2AvpSNKGka_gBYCkrd6VlgXxJeg'};
+    ,'Authorization':'eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJiY2FtcG9zQGJjYW1wb3MuY29tIiwiZXhwIjoxNjIwNTEzNTI2fQ.xzVxCrTtNlDS0UyClqHE0DIiRVuuj7JdDXuIr6mzlKDE6Gn66Fp3xgvjUsA8iAdrAdvPt9x8_xYjoSTJ1rKOxw'};
    
 
     getAll(){
