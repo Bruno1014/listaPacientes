@@ -29,7 +29,7 @@ const Login = () => {
     return (
         <>
             <h1>Login</h1>
-            <p>Fill the fields to continue</p>
+            <p>Login</p>
             <Formik
                 initialValues={{}}
                 onSubmit={handleSubmit}
