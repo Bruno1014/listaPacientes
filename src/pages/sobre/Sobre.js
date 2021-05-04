@@ -3,7 +3,7 @@ import React from 'react';
 const Sobre = () => (
     <div className="title">
         <h4>Sobre</h4>
-        <p>Aqui estão as informações a meu respeito</p>
+        <p>Aqui estão as informações</p>
     </div>
 );
 
